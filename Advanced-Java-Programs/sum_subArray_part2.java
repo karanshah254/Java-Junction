@@ -4,7 +4,7 @@ public class sum_subArray_part2 {
         int maxSum = Integer.MIN_VALUE;
         int prefix[] = new int[number.length];
 
-        // optimized code
+        // optimized code - prefix sum
         prefix[0] = number[0];
         for (int i = 1; i < prefix.length; i++) {
             prefix[i] = prefix[i - 1] + number[i];
