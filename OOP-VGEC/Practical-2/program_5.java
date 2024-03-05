@@ -21,7 +21,6 @@ public class program_5 {
         }
 
         sortElemnet(number);
-
         System.out.print("\nSorted array is : ");
         for (int i = 0; i < number.length; i++) {
             System.out.print(number[i] + " ");
