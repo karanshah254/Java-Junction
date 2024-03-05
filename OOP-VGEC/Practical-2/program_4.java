@@ -30,7 +30,10 @@ public class program_4 {
 
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                c[i][j] = array1[i][j] * array2[i][j];
+                c[i][j] = 0;
+                for (int k = 0; k < 3; k++) {
+                    c[i][j] += array1[i][k] * array2[k][j];   
+                }
                 System.out.print(c[i][j] + " ");
             }
             System.out.println();
