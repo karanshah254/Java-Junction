@@ -34,7 +34,7 @@ public class array_practice_set_1 {
     }
 
     // Q-4 Gievn n non negetive intergers representing an elevation map where
-    // width od each bar is 1, computer how much water can it trap
+    // width od each bar is 1, computer how much water can it trap?
 
     public static int question3(int array3[]) {
         int n = array3.length;
