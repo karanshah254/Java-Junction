@@ -45,7 +45,7 @@ public class basic_2D_array {
             System.out.println();
         }
 
-        search(matrix, 4);
+        search(matrix, 5);
         maximum(matrix);
         sc.close();
     }

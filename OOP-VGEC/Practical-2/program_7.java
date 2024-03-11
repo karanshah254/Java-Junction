@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class program_3 {
+public class program_7 {
     public static String findCommonPrefix(String str1, String str2) {
         int minLength = Math.min(str1.length(), str2.length());
         StringBuilder prefix = new StringBuilder();
