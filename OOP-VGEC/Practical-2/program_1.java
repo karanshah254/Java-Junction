@@ -1,7 +1,7 @@
 public class program_1 {
     public static void main(String[] args) {
         int matrix[][] = new int[6][6];
-        int countRow = 0, countColumn = 0;
+
         int i, j;
         for (i = 0; i < 6; i++) {
             for (j = 0; j < 6; j++) {
@@ -12,6 +12,7 @@ public class program_1 {
         }
 
         for (i = 0; i < 6; i++) {
+            int countRow = 0, countColumn = 0;
             for (j = 0; j < 6; j++) {
                 if (matrix[i][j] == 1) {
                     countRow++;
