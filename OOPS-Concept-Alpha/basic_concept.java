@@ -15,10 +15,10 @@ public class basic_concept {
 
 class BankAccount {
     public String username;
-    private String password;
+    // private String password;
 
     public void setPasswd(String pwd) {
-        password = pwd;
+        // password = pwd;
     }
 }
 
