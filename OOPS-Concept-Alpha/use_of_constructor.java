@@ -15,7 +15,7 @@ class Student {
 
     // non parameterized constructor
     Student() {
-        // System.out.println("Default constructor called");
+        System.out.println("Default constructor called");
     }
     
     // parametrized constructor
