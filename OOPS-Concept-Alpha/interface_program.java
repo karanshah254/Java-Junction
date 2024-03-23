@@ -29,7 +29,6 @@ class Duck implements walkable, swimmable {
 }
 // multiple-inheritance ends here
 
-
 // demo of using interface
 interface chessPlayer {
     void moves();

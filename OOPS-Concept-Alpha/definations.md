@@ -28,3 +28,9 @@
 
 8. Interface:
 - >Interface is blue-print of the class. It is basically for multiple-inheritance. It has total abstraction. All methods are publc, abstract and without implementation.
+
+9. static keyword:
+- >It is used to share the same variable and method of given class. It can be used for properties, functions, blocks, nested classes.
+
+10. super keyword:
+- >It is used to refer immediate parent class object. It is used to access parents properties, functions, constructors.
