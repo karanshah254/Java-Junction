@@ -16,12 +16,12 @@ public class arra_of_obj {
     public static void main(String[] args) {
         // array of an object
         Array[] student = new Array[4];
-        student[0] = new Array("Karan", 124);
-        student[1] = new Array("Kavan", 125);
-        student[2] = new Array("John", 126);
+        student[0] = new Array("Karan Shah", 124);
+        student[1] = new Array("Kavan Joshi", 125);
+        student[2] = new Array("John Doe", 126);
         student[3] = new Array("Carl Johnson", 127);
 
-        // display details
+        // display details | roll_no | -- | name |
         student[0].display();
         student[1].display();
         student[2].display();
