@@ -22,6 +22,8 @@ abstract class Animal {
         System.out.println("Animal eats");
     }
 
+    // this walk function is different for diff animals, hence it's declared as an
+    // abstract method
     abstract void walk();
 }
 
