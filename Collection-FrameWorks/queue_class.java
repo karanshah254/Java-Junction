@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class queue_stack {
+public class queue_class {
     public static void main(String[] args) {
         Queue<String> queue = new LinkedList<>();
 
