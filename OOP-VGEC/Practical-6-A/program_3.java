@@ -12,9 +12,10 @@ class BankAccount {
     }
 
     public void deposit(double amount) {
+        System.out.println("Current balance is Rs " + balance);
         balance = balance + amount;
         System.out.println("Desposited: Rs " + amount);
-        System.out.println("Current balance is Rs " + balance);
+        System.out.println("Updated balance is Rs " + balance);
     }
 
     public void withdraw(double amount) throws InsufficientFundException {
