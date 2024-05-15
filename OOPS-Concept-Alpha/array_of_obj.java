@@ -12,7 +12,7 @@ class Array {
     }
 }
 
-public class arra_of_obj {
+public class array_of_obj {
     public static void main(String[] args) {
         // array of an object
         Array[] student = new Array[4];
