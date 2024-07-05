@@ -11,13 +11,13 @@ class Time {
 
     void add(Time t) {
         this.seconds += t.seconds;
-        if (t.seconds >= 60) {
+        if (this.seconds >= 60) {
             this.minute++;
             this.seconds -= 60;
         }
 
         this.minute += t.minute;
-        if (t.minute >= 60) {
+        if (this.minute >= 60) {
             this.hour++;
             this.minute -= 60;
         }
